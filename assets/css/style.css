@@ -1,0 +1,147 @@
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#wrapper {
+    background: #fff;
+    width: 1100px;
+    margin: 20px auto;
+}
+
+#wrapper header {
+    background: #232323;
+    padding: 20px;
+}
+
+#wrapper header hgroup {
+    float: left;
+    color: #fff;
+}
+
+#wrapper header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+#wrapper header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+#wrapper header nav ul li a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background: #232323;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Gaya dasar dari template Anda */
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#wrapper {
+    background: #fff;
+    width: 1100px;
+    margin: 20px auto;
+}
+/* Gaya khusus untuk tabel */
+#daftarBuku {
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan border sel */
+    margin-bottom: 20px;
+}
+
+#daftarBuku th,
+#daftarBuku td {
+    border: 1px solid #ddd; /* Border pada setiap sel */
+    padding: 8px; /* Jarak antara teks dan border */
+    text-align: left;
+}
+
+#daftarBuku th {
+    background-color: #f2f2f2; /* Warna latar belakang header */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+center h1 {
+    color: #000000;
+    text-shadow: 2px 2px 4px #aaa;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table#inputbuku {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table#inputbuku td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table#inputbuku input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+table#inputbuku input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+table#inputbuku input[type="submit"]:hover {
+    background-color: #4169e1;
+}
+
